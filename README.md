@@ -38,8 +38,8 @@ With custom prefix length:
 ```
 gen := NewPrefixGenerator(WithPrefix(0))
 gen.Encode(1337)
-// "LZ"
-gen.Decode("LZ")
+// "Kv"
+gen.Decode("Kv")
 // 1337, ""
 ```
 
