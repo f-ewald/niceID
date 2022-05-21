@@ -46,5 +46,12 @@ gen.Decode("Kv")
 For further information see the unit tests or have a look at the source code. 
 Pull requests are welcome.
 
+## Testing
+To test this library, execute the following:
+```
+go test -cover ./...
+ok      github.com/f-ewald/niceID       0.124s  coverage: 82.2% of statements
+```
+
 ## License
 MIT
